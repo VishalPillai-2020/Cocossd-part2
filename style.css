@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.486),
+      rgba(128, 128, 128, 0.445)
+    ),
+    url("bg.jpg");
+  background-size: cover;
+}
+
+body {
+text-align:center;
+ font-family:Proxima-Nova-Regular;
+}
+@font-face {
+    font-family: Proxima-Nova-Regular;
+    src: url(ProximaNova-Regular.woff);
+  }
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family:Proxima-Nova-Regular;
+}
+
+
+.button {
+  background-image: linear-gradient(
+    to right,
+    #68696bc5 0%,
+    #859398ad 51%,
+    #ffffff 100%
+  );
+  font-family:Proxima-Nova-Regular;
+}
+.button {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

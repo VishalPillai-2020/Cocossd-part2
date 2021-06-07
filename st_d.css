@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(
+        rgba(128, 128, 128, 0.705),
+        rgba(128, 128, 128, 0.705)
+      ),
+      url("bg_1.jpg");
+    background-size: cover;
+    font-family:Proxima;
+}
+@font-face {
+    font-family: Proxima;
+    src: url(ProximaNova-Regular.woff);
+    
+  }
+  h1{
+      font-size:35px;
+      background-color:rgba(255, 255, 255, 0.787);
+      padding:15px;
+      width:fit-content;
+      border-radius:10px;
+  }
+  #btn1{
+    font-family:Proxima;
+    font-size:20px;
+    background-color:rgba(255, 255, 255, 0.589);
+    color:black;
+    margin-top:500px;
+    border-radius:10px;
+    padding:10px;
+    width:fit-content;
+  }
+  #status{
+    background-color:rgba(255, 251, 251, 0.589);;
+    font-size:25px;
+    color:black;
+    font-family:Proxima;
+    padding:10px;
+    width:fit-content;
+    border-radius:10px;
+  }
+  canvas{
+    margin-top:100px;
+    border-radius:10px;
+    border-color:grey;
+    border-width:3px;
+  }
+  #btn2{
+    font-family:Proxima;
+    padding:10px;
+    width:fit-content;
+    font-size:18px;
+    border-radius:10px;
+    border:none;
+    margin-right:-1200px;
+  }
+  
